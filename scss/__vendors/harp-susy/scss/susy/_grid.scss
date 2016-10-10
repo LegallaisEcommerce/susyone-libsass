@@ -130,7 +130,7 @@
   } @else {
     float: $from;
     margin-#{$to}: gutter($context, $style);
-    @if $legacy-support-for-ie6 { display: inline; }
+    // @if $legacy-support-for-ie6 { display: inline; }
   }
 }
 
@@ -150,7 +150,7 @@
 
   @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
     *margin-#{$hack}: - $gutter-width;
-    @if $legacy-support-for-ie6 { display: inline; }
+    // @if $legacy-support-for-ie6 { display: inline; }
   }
 }
 
