@@ -1,0 +1,8 @@
+{
+  "name": "susyone-libsass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LegallaisEcommerce/susyone-libsass.git",
+  "author": "Valentin LÉVÊQUE <contact@valentinleveque.me>",
+  "license": "MIT"
+}
